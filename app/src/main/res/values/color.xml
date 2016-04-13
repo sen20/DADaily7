@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="black">#000</color>
+    <color name="orange">#FA0</color>
+    <color name="white">#FFF</color>
+    <color name="Slot1">#FF6F00</color>
+    <color name="Slot2">#01579B</color>
+    <color name="Slot3">#009688</color>
+    <color name="Slot4">#AD1457</color>
+    <color name="Slot5">#1B5E20</color>
+    <color name="Slot6">#827717</color>
+    <color name="Slot7">#6A1B9A</color>
+    <color name="background">#E3F2FD</color>
+    <color name="background2">#BBDEFB</color>
+    <color name="blue">#0000FF</color>
+    <color name="dark_blue">#1A237E</color>
+    <color name="grey">#757575</color>
+
+</resources>

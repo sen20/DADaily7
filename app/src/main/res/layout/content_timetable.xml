@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    tools:context=".TimeTable"
+    android:layout_marginTop="?attr/actionBarSize">
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="*"
+        android:layout_below="@+id/title">
+
+        <TableRow>
+            <Button
+                android:id="@+id/time"
+                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:text="TIME"
+                android:textColor="@android:color/holo_red_light"
+                android:clickable="false"
+                android:background="@color/background_floating_material_light"
+                />
+            <Button
+                android:id="@+id/mon"
+                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:text="MON"
+                android:textColor="@android:color/holo_red_light"
+                android:clickable="false"
+                android:background="@color/background_floating_material_light"
+                />
+            <Button
+                android:id="@+id/tue"
+                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:text="TUE"
+                android:textColor="@android:color/holo_red_light"
+                android:clickable="false"
+                android:background="@color/background_floating_material_light"
+                />
+            <Button
+                android:id="@+id/wed"
+                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:text="WED"
+                android:textColor="@android:color/holo_red_light"
+                android:clickable="false"
+                android:background="@color/background_floating_material_light"
+                />
+            <Button
+                android:id="@+id/thu"
+                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:text="THU"
+                android:textColor="@android:color/holo_red_light"
+                android:clickable="false"
+                android:background="@color/background_floating_material_light"
+                />
+            <Button
+                android:id="@+id/fri"
+                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:text="FRI"
+                android:textColor="@android:color/holo_red_light"
+                android:clickable="false"
+                android:background="@color/background_floating_material_light"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/time1"
+                android:layout_height="45dp"
+                android:layout_width="60dp"
+                android:text="8.00-\n8.50"
+                android:textSize="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:clickable="false"
+                android:background="@color/background_floating_material_light"
+                >
+            </Button>
+            <Button android:id="@+id/mbutton1"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text=""
+                android:textSize="10dp"
+                android:background="@color/white"
+                android:elevation="0dp"
+                android:clickable="false"
+                />
+            <Button android:id="@+id/tbutton1"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot6"
+                android:textSize="10dp"
+                android:textColor="@color/Slot6"
+                android:textStyle="bold"
+                android:onClick="open6"
+                />
+            <Button android:id="@+id/wbutton1"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot6"
+                android:textSize="10dp"
+                android:textColor="@color/Slot6"
+                android:textStyle="bold"
+                android:onClick="open6"
+                />
+            <Button android:id="@+id/thbutton1"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text=""
+                android:textSize="10dp"
+                android:background="@color/white"
+                android:elevation="0dp"
+                android:clickable="false"
+                />
+            <Button android:id="@+id/fbutton1"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot6"
+                android:textSize="10dp"
+                android:textColor="@color/Slot6"
+                android:textStyle="bold"
+                android:onClick="open6"
+                />
+
+
+
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/time2"
+                android:layout_height="45dp"
+                android:layout_width="60dp"
+                android:text="9.00-\n9.50"
+                android:textSize="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:clickable="false"
+                android:background="@color/background_floating_material_light"
+                >
+            </Button>
+            <Button android:id="@+id/mbutton2"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot7"
+                android:textSize="10dp"
+                android:textColor="@color/Slot7"
+                android:textStyle="bold"
+                android:onClick="open7"
+                />
+            <Button android:id="@+id/tbutton2"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot4"
+                android:textSize="10dp"
+                android:textColor="@color/Slot4"
+                android:textStyle="bold"
+                android:onClick="open4"
+                />
+            <Button android:id="@+id/wbutton2"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot7"
+                android:textSize="10dp"
+                android:textColor="@color/Slot7"
+                android:textStyle="bold"
+                android:onClick="open7"
+                />
+            <Button android:id="@+id/thbutton2"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot7"
+                android:textSize="10dp"
+                android:textColor="@color/Slot7"
+                android:textStyle="bold"
+                android:onClick="open7"
+                />
+            <Button android:id="@+id/fbutton2"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot4"
+                android:textSize="10dp"
+                android:textColor="@color/Slot4"
+                android:textStyle="bold"
+                android:onClick="open4"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/time3"
+                android:layout_height="45dp"
+                android:layout_width="60dp"
+                android:text="10.00-\n10.50"
+                android:textSize="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:clickable="false"
+                android:background="@color/background_floating_material_light"
+                >
+            </Button>
+            a<Button android:id="@+id/mbutton3"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot1"
+                android:textSize="10dp"
+                android:textColor="@color/Slot1"
+                android:textStyle="bold"
+                android:onClick="open1"
+                />
+            <Button android:id="@+id/tbutton3"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot5"
+                android:textSize="10dp"
+                android:textColor="@color/Slot5"
+                android:textStyle="bold"
+                android:onClick="open5"
+                />
+            <Button android:id="@+id/wbutton3"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot1"
+                android:textSize="10dp"
+                android:textColor="@color/Slot1"
+                android:textStyle="bold"
+                android:onClick="open1"
+                />
+            <Button android:id="@+id/thbutton3"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot1"
+                android:textSize="10dp"
+                android:textColor="@color/Slot1"
+                android:textStyle="bold"
+                android:onClick="open1"
+                />
+            <Button android:id="@+id/fbutton3"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot5"
+                android:textSize="10dp"
+                android:textColor="@color/Slot5"
+                android:textStyle="bold"
+                android:onClick="open5"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/time4"
+                android:layout_height="45dp"
+                android:layout_width="60dp"
+                android:text="11.00-\n11.50"
+                android:textSize="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:clickable="false"
+                android:background="@color/background_floating_material_light"
+                >
+            </Button>
+            <Button android:id="@+id/mbutton4"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot2"
+                android:textSize="10dp"
+                android:textColor="@color/Slot2"
+                android:textStyle="bold"
+                android:onClick="open2"
+                />
+            <Button android:id="@+id/tbutton4"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot2"
+                android:textSize="10dp"
+                android:textColor="@color/Slot2"
+                android:textStyle="bold"
+                android:onClick="open2"
+                />
+            <Button android:id="@+id/wbutton4"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot4"
+                android:textSize="10dp"
+                android:textColor="@color/Slot4"
+                android:textStyle="bold"
+                android:onClick="open4"
+                />
+            <Button android:id="@+id/thbutton4"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot2"
+                android:textSize="10dp"
+                android:textColor="@color/Slot2"
+                android:textStyle="bold"
+                android:onClick="open2"
+                />
+            <Button android:id="@+id/fbutton4"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text=""
+                android:background="@color/white"
+                android:elevation="0dp"
+                android:textSize="10dp"
+                android:clickable="false"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/time5"
+                android:layout_height="45dp"
+                android:layout_width="60dp"
+                android:text="12.00-\n12.50"
+                android:textSize="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:clickable="false"
+                android:background="@color/background_floating_material_light"
+                >
+            </Button>
+            <Button android:id="@+id/mbutton5"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot3"
+                android:textSize="10dp"
+                android:textColor="@color/Slot3"
+                android:textStyle="bold"
+                android:onClick="open3"
+                />
+            <Button android:id="@+id/tbutton5"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot3"
+                android:textSize="10dp"
+                android:textColor="@color/Slot3"
+                android:textStyle="bold"
+                android:onClick="open3"
+                />
+            <Button android:id="@+id/wbutton5"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot5"
+                android:textSize="10dp"
+                android:textColor="@color/Slot5"
+                android:textStyle="bold"
+                android:onClick="open5"
+                />
+            <Button android:id="@+id/thbutton5"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text="Slot3"
+                android:textSize="10dp"
+                android:textColor="@color/Slot3"
+                android:textStyle="bold"
+                android:onClick="open3"
+                />
+            <Button android:id="@+id/fbutton5"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:text=""
+                android:textSize="10dp"
+                android:background="@color/white"
+                android:elevation="0dp"
+                android:clickable="false"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
+</ScrollView>
+
